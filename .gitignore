@@ -1,2 +1,4 @@
 .idea
 nodejs/node_modules
+nodejs/package-lock.json
+nodejs/yarn.lock
