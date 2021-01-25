@@ -1,4 +1,4 @@
 .idea
-nodejs/node_modules
-nodejs/package-lock.json
-nodejs/yarn.lock
+simple-web/node_modules
+simple-web/package-lock.json
+simple-web/yarn.lock
