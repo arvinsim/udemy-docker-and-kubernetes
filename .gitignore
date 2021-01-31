@@ -1,4 +1,8 @@
 .idea
+
 simple-web/node_modules
 simple-web/package-lock.json
 simple-web/yarn.lock
+
+visits/node_modules
+visits/package-lock.json
