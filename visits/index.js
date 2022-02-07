@@ -6,7 +6,15 @@ const client = redis.createClient({
     host: "redis-server",
     port: 6379
 })
-client.set('visits', 0)
+client.on('error', (err) => console.log('Redis Client Error', err));
+
+
+async function bootUp() {
+    await client.connect();
+    await client.set('visits', 0);
+};
+
+bootUp()
 
 app.get('/', (req, res) => {
     client.get('visits', (err, visits) => {

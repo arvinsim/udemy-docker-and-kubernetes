@@ -8,8 +8,8 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
-    "express": "*",
-    "redis": "*"
+    "express": "4.17.2",
+    "redis": "4.0.3"
   },
   "devDependencies": {
     "prettier": "*"
