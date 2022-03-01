@@ -3,7 +3,7 @@ const redis = require('redis')
 
 const app = express()
 const client = redis.createClient({
-    host: "redis-server",
+    host: "redis",
     port: 6379
 })
 client.on('error', (err) => console.log('Redis Client Error', err));

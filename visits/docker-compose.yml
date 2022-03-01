@@ -1,7 +1,7 @@
 version: "3.9"
 services:
   redis-server:
-    image: "redis"
+    image: "redis:alpine"
   node-app:
     restart: "on-failure"
     build: .
